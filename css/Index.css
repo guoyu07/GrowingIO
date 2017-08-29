@@ -1,0 +1,970 @@
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select{margin:0;padding:0} 
+body{font:12px'Microsoft Yahei',"Arial Narrow",HELVETICA;background:#fff;-webkit-text-size-adjust:100%;} 
+a{color:#2d374b;text-decoration:none} 
+a:hover{color:#cd0200;text-decoration:underline} 
+em{font-style:normal} 
+li{list-style:none} 
+img{border:0;} 
+table{border-collapse:collapse;border-spacing:0} 
+p{word-wrap:break-word}
+
+.clearfix:after {content: "."; display: block; height:0; clear:both; visibility: hidden;}
+.clearfix { *zoom:1; }
+
+.banner{
+   	height: 640px;
+	width: 100%;
+	padding-top: 68px;
+	background-image: linear-gradient(123deg, #fc5f3a, #fd643b 6%, #ffd15b);
+    background-repeat: no-repeat;
+}
+
+/*导航栏 */
+.nav{
+	width: 100%;
+	position: fixed;
+	z-index: 20;
+}
+.nav_container{
+	display: block;
+	height: 58px;
+	width: 1140px;
+	margin: 0 auto;
+	padding: 5px 0;
+}
+.nav_right{
+	display: inline-block;
+	vertical-align: middle;
+    width: 135px;
+    height: 28px;
+    
+    padding:15px;
+    background-color: rgba(0, 0, 0, 0);
+	background-image: url(../images/rsz_180_gio-logo.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position-y:center;
+}
+.nav_left{
+	display: inline-block;
+	float: right;
+	padding-top: 5px;
+	
+}
+.nav_download{
+	display: inline-block;
+    margin-top: 4px;
+    padding: 0;
+    height: 40px;
+    line-height: 38px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+}
+.nav_download:hover{
+	color: #e1e2e4;
+	text-decoration: none;
+}
+.nav_left span{
+	display: inline-block;
+	vertical-align: middle;
+	height: 20px;
+	width: 2px;
+	margin:0 20px;
+	background-color: #fff;
+}
+.nav_free{
+	display: inline-block;
+	text-align: center;
+    line-height: 36px;
+	height: 40px;
+	width: 110px;
+	border:2px;
+	border-radius: 50px;
+	margin-top: 4px;
+	background-color: #fff;
+	color: #fc5f3a;
+	font-size: 18px;
+}
+.nav_free:hover{
+	color: #dd4a3a;
+	background :#fff;
+	text-decoration: none;
+}
+.nav_icon{
+	display: inline-block;
+	float: right;
+	width: 22px;
+	height: 17px;
+	padding: 9px 10px;
+	margin: 8px 15px;
+}
+.nav_icon span{
+    display: block;
+    width: 22px;
+	background-color: #fff;
+    height: 3px;
+    margin-top: 4px;
+    border-radius: 1px;
+}
+
+/*banner正文部分 */
+.banner_content{
+	display: block;
+	margin: 0 auto;
+	width: 1060px;
+	height: 515px;
+	margin: 0 auto;
+}
+.banner_content img{
+	display: inline-block;
+    vertical-align: middle;
+	width: 556px;
+    height: auto;
+    margin: -200px auto 0;
+}
+.banner_word{
+	display: inline-block;
+	
+	width: 500px;
+	margin-top: 70px;
+}
+.banner_word h3{
+	width: 100%;
+	height: 45px;
+	margin-top: 50px;
+	margin-bottom: 25px;
+	text-align: left;
+	font-size: 42px;
+    font-weight: 500;
+    color: #fff;
+}
+.banner_word p{
+	height: 196px;
+	width: 84%;
+	margin-right: 80px;
+	margin-bottom: 10px;
+	font-size: 18px;
+    line-height: 220%;
+    color: #fff;
+}
+
+/*正文 */
+.main{
+	width: 100%;
+	height: 1298px;
+	margin: 0 auto;
+	padding:50px 0;		
+}
+.main h3{
+	font-size: 32px;
+    margin-bottom: 60px;
+    display: block;
+    font-weight: normal;
+    color: #f17b74;
+    text-align: center;	
+}
+.main_content{
+    width: 1008px;
+    margin: 0 auto 60px;
+}
+.main_word{
+	display: inline-block;
+	width: 420px;
+	height: 325px;
+	
+}
+.main_word img{
+	display: block;
+	margin: 0 auto;
+	width: 74px;
+	height: 78px;
+}
+.main_word h4{
+	display: block;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    line-height: 150%;
+	font-size: 26px;
+    font-weight: 500;
+    color: #65697f;
+    text-align: center;
+}
+.main_word p{
+    margin-bottom: 15px;
+    line-height: 200%;
+    font-size: 18px;
+    color: #65697f;
+}
+.main_img_right{
+	display:table-cell;
+	float: right;
+	width: 478px;
+	height: 172px;
+	text-align: center;
+	vertical-align: middle;
+	border: 1px solid #e1e2e4;
+    box-shadow: inset 0 1px 5px 0 rgba(0, 0, 0, 0.1);
+	margin-top: 70px;
+	margin-left: 108px;
+}
+.main_img_right span{
+	display:inline-block;
+    height:100%;
+    vertical-align:middle
+}
+.main_img_right img{
+	width: 80%;
+	height: auto;
+	vertical-align: middle;
+}
+.main_img_left{  /*第二个图片在左边 */
+	float: left;
+	margin-right: 108px;
+	margin-left: 0;
+}
+
+
+/*增长黑客电子书 */
+.microBanner{
+	width: 100%;
+	height: 270px;
+	padding: 15px 0;
+    background-color: #c5f3a9;
+    background-image: linear-gradient(123deg, #fc5f3a, #fd643b 6%, #ffd15b);
+}
+.microBanner_container{
+	width: 1240px;
+	height: 230px;
+	margin: 20px auto;
+
+}
+.microBanner_container img{
+	display: inline-block;
+}
+.microBanner_container div{
+	display: inline-block;
+	float: right;
+    margin-right: 110px;
+}
+.microBanner_container h3{
+	text-align: center;
+    margin-bottom: 30px;
+    font-size: 32px;
+    font-weight: 500;
+    color: #ffffff;
+}
+.microBanner_container_span{
+	display: inline-block;
+    height: 24px;
+    margin-left: 0;
+    font-size: 18px;
+    line-height: 24px;
+}
+.microBanner_container span p{
+	display: inline-block;
+	font-size: 18px;
+    line-height: 24px;
+    vertical-align: middle;
+    color: #fff;
+}
+.microBanner_container span span{
+	display: inline-block;
+    vertical-align: middle;
+    width: 24px;
+    height: 24px;
+    margin-top: 1px;
+    margin-right: 10px;
+    border-radius: 12px;
+    background: #fff;
+}
+
+.microBanner_container a{
+	display: block;
+	width: 240px;
+    height: 60px;
+    margin: 0 auto;
+    margin-top: 105px;
+    text-align: center;
+    line-height: 60px;
+    font-size: 22px;
+    font-weight: normal;
+    color: #fff;
+    border-radius: 30px;
+    border: 1px solid #ffffff;
+}
+.microBanner_container a:hover{
+	background: #fff;
+	color: #fc5f3a;
+	text-decoration: none;
+}
+/*如何成为一名 Growth Hacker? */
+.next{
+	width: 100%;
+	padding: 50 15px;	
+}
+.next_introduce{
+	width: 1060px;
+	height: 1465px;
+	margin: 50px auto;
+}
+.next_introduce h3{
+	font-size: 32px;
+    margin-bottom: 60px;
+    display: block;
+    color: #f17b74;
+    font-weight: normal;
+    text-align: center;	
+}
+.next_introduce_img{
+	display: inline-block;
+    float: right;
+	height: 400px;
+}
+.next_content_container{
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 80px;
+
+}
+.next_content_left{
+	display: inline-block;
+	float: left;
+
+}
+.next_content_left img{
+	float: none;
+	width: 180px;
+	height: auto;
+	margin-left: 0;
+    margin-bottom: 20px;
+
+}
+.next_content_left h4{
+	font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: 500;
+    color: #f17b74;
+}
+.next_content_left p{
+    width: 380px;
+    font-size: 18px;
+    line-height: 200%;
+    color: #a0a4af
+}
+.next_content_right{/*图片居右 */
+	float: left;
+}
+.next_content_right_div{
+	margin-left: 120px;
+}
+
+/*Growth Hacker 必备的8项能力 */
+.third{
+
+}
+.third_container{
+	height: 944px;
+	width: 100%;
+	margin: 60px auto;
+}
+.third_container h3{
+	font-size: 32px;
+    margin-bottom: 60px;
+    display: block;
+    font-weight: normal;
+    color: #f17b74;
+    text-align: center;	
+}
+.third_container img{
+	display: block;
+	width: 640px;
+    height: auto;
+	margin: 0 auto;
+}
+.third_container h6{
+	width: 640px;
+    margin: 0 auto;
+    padding: 0 30px;
+    line-height: 200%;
+	font-size: 18px;
+	font-weight: 300;
+    color: #a0a4af;
+    text-align: center;
+}
+.third_list{
+	width: 1140px;
+    margin: 0 auto;;
+	height: 280px;
+	margin-top: 30px;
+	box-shadow: 0 2px 24px 0 rgba(0, 0, 0, 0.1);
+}
+.third_item div{
+	float: left;
+    width: 242px;
+    height: 280px;
+    margin:0 1%;
+    margin-bottom: 0;
+    padding: 50px 0px 0 20px;
+}
+.third_item p{
+    height: 200px;
+    margin-top: -30px;
+    padding-top: 10px;
+	padding-right: 20px;
+    font-size: 16px;
+    color: #a0a4af;
+    line-height: 225%;
+}
+.third_item span{
+	display: block;
+    position: relative;
+    width: 140px;
+	top: -64px;
+    height: 36px;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 16px;
+    line-height: 36px;
+    border-radius: 18px;
+    color: #ffffff;
+    background-color: #f17b74
+}
+.third_item_border{/*前三个边框*/
+
+    border-right: 1px #e1e2e4 solid;
+}
+
+/*Growth Hacker ：如何用数据驱动增长？ */
+.forth{
+
+}
+.forth_container{
+    width: 1140px;
+	height: 1477px;
+	margin:0 auto;
+	padding: 50px 0;
+}
+.forth_container h3{
+	font-size: 32px;
+    margin-bottom: 60px;
+    display: block;
+    font-weight: normal;
+    color: #f17b74;
+    text-align: center;	
+}
+.forth_container img{
+	display: block;
+    margin: 0 auto;
+}
+.forth_content{
+	display: block;
+	width: 100%;
+	height: 680px;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+.forth_item{
+	display: inline-block;
+    float: left;
+	width: 33%;
+	height: 300px;
+	margin-bottom: 40px;
+	border-right: rgb(225,226,228) 1px solid;
+}
+.forth_item img{
+	display: block;
+	height: 100px;
+	width: 100px;
+	margin: 0 auto;
+}
+.forth_item h6{
+    display: block;
+    font-size: 18px;
+	font-weight: normal;
+    color: #191140;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.forth_item p{
+	margin: 0 0 10px;
+	padding: 0 40px;
+    font-size: 14px;
+    color: #a0a4af;
+    line-height: 185%;
+    text-align: left;
+}
+.forth_item_none{	/*去除最右边框*/
+	border-right: #fff;
+}
+
+/*footer*/
+.footer{
+	height: 267px;
+	width: 100%;
+	background-color: #383963;
+}
+.footer p{
+	display: block;
+    margin:60px auto 10px auto;
+    font-size: 12px;
+    text-align: center;
+    color: #fff;
+}
+.footer_container{
+	display: block;
+	height: auto;
+	width: 1140px;
+	margin: 0 auto;
+	padding: 50px 10px 0 10px;
+}
+.footer_text{
+    width: 505px;
+    margin: 0 auto;
+    float: left;
+}
+.footer_container_list{
+	float: left;
+	margin: 0 47px;
+}
+.footer_container_list h3{
+	display: block;
+	margin-bottom: 16px;
+    font-size: 16px;
+    color: #fff;
+    text-align: left;
+    font-weight: bolder;
+}
+.footer_container_item{
+	display: block;
+    line-height: 30px;
+    font-size: 14px;
+    color: #e1e2e4;
+    text-align: left;
+}
+.footer_img_left{
+	float: left;
+	width: 262px;
+}
+.footer_img_left img{
+	width: 160px;
+	height: auto;
+}
+.footer_img_right{
+	float: right;
+	width: 262px;
+}
+.footer_img_right img{
+	display: inline-block;
+	width: 90px;
+	height: 90px;
+}
+
+/*媒体查询*/
+@media screen and (min-width: 1245px) {
+	.nav{
+		width: 100%;
+	}
+	.banner{
+		width: 100%;
+	}
+	.nav_icon{
+		display: none;
+	}
+	.nav_left{
+		display: inline-block;
+	}
+}
+@media screen and (min-width: 846px) and (max-width: 1245px){
+	.nav{
+		width: 100%;
+	}
+	.banner{
+		width: 1245px;
+	}
+	.main{
+		width: 1245px;
+	}
+	.microBanner{
+		width: 1245px;
+	}
+	.next{
+		width: 1245px;
+	}
+	.third{
+		width: 1245px;
+	}
+	.footer{
+		width: 1245px;
+	}
+
+	/*nav*/
+	.nav_container{
+		width: auto;
+	}
+	.nav_right{
+		margin-left: 25px;
+	}
+	.nav_left{
+		display: none;
+		
+	}
+	.nav_icon{
+		display: inline-block;
+	}
+	.nav_left{
+		float: none;
+		width: 100%;
+		background: #fff;
+    	padding-bottom: 15px;
+	}
+	.nav_left span{
+		display: none;
+	}
+	.nav_download{
+		display: block;
+		color: #65697f;
+		height: 105px;
+	    line-height: 105px;
+	    text-align: center;
+	    margin: 0 auto;
+    	border: rgb(225,226,228) solid 1px;
+    	border-left: none;
+    	border-right: none;
+	}
+
+	.nav_free{
+		display: block;
+		margin: 15px auto;
+		margin-bottom: 0;
+	}
+
+
+}
+@media screen and (max-width: 845px) {
+	.nav{
+		width: 100%;
+	}
+	.banner{
+		width: 100%;
+		height: 600px;
+	}
+	.next{
+		width: 100%;
+	}
+	.footer{
+		width: 100%;
+	}
+	
+	/*nav*/
+	.nav_container{
+		width: auto;
+	}
+	.nav_right{
+		margin-left: 25px;
+	}
+	.nav_left{
+		display: none;
+		
+	}
+	.nav_icon{
+		display: inline-block;
+	}
+	.nav_left{
+		float: none;
+		width: 100%;
+		background: #fff;
+    	padding-bottom: 15px;
+	}
+	.nav_left span{
+		display: none;
+	}
+	.nav_download{
+		display: block;
+		color: #65697f;
+		height: 105px;
+	    line-height: 105px;
+	    text-align: center;
+	    margin: 0 auto;
+    	border: rgb(225,226,228) solid 1px;
+    	border-left: none;
+    	border-right: none;
+	}
+
+	.nav_free{
+		display: block;
+		margin: 15px auto;
+		margin-bottom: 0;
+	}
+
+
+	/*banner */
+	.banner h3{
+		margin-top: 50px;
+	    margin-bottom: 10px;
+	    font-size: 24px;
+	    font-weight: 500;
+	    text-align: center;
+	}
+	.banner_content{
+		width: 100%;
+	}
+	.banner_word{
+		width: auto;
+		margin-top: 0;
+	}
+	
+	.banner_word p {
+	    font-size: 14px;
+    	line-height: 185%;
+    	margin:0 auto;
+	}
+	.banner_content img {
+		display: block;
+		width: 260px;
+		margin: 0 auto;
+		vertical-align:middle;
+	}
+
+	/*Growth Hacker 可以帮您做什么?*/
+	.main{
+		height: auto;
+		width: 100%;
+	}
+	.main h3{
+		font-size:18px;
+		font-weight: normal;
+
+	}
+	.main_word{
+		display: block;
+		width: 100%;
+		height: auto;
+	}
+	.main_word h4{
+		font-size: 16px;
+    	font-weight: 500;
+	}
+	.main_word img{
+		width: 60px;
+		height: auto;
+	}
+	.main_word p{
+		margin: 30px;
+    	font-size: 14px;
+    	font-weight: normal;
+  	    line-height: 160%;
+	}
+	.main_img_right{
+		display: block;
+		float: none;
+		width: 240px;
+		height: 86px;
+		margin: 35px auto;
+	}
+	.main_img_right img{
+		width: 200px;
+
+	}
+	.main_img_left{
+		float: none;
+	    margin: 0 auto;
+	}
+	.main_content{
+		margin-top: -20px;
+		width: 100%;
+	}
+
+	/*增长黑客电子书*/
+	.microBanner{
+		height: 250px;
+	}
+	.microBanner_container{
+		display: block;
+		float: none;
+		width: auto;
+	}
+	.microBanner_container img {
+    	display: none;
+	}
+	.microBanner_container h3{
+		width: 224px;
+		margin: 0 auto;
+		margin-bottom: 20px;
+	    font-size: 16px;
+	    font-weight: 500;
+	    color: #ffffff;
+	    text-align: center;
+	}
+	.microBanner_container div{
+		display: table;
+		float: none;
+		margin: 0 auto;
+	}
+	.microBanner_container_span{
+	    display: block;
+	    margin:0 auto;
+	    margin-bottom: 15px;
+	    color: #ffffff;
+	    line-height: 16px;
+	}
+	.microBanner_container span span{
+	    display: inline-block;
+	    width: 10px;
+	    height: 10px;
+	    margin-top: 3px;
+	    margin-right: 5px;
+	    border-radius: 5px;
+	    background-color: #ffffff;
+	}
+	.microBanner_container span p{
+	    font-size: 14px;
+	    text-align: left;
+	}
+	.microBanner_container a{
+	    width: 150px;
+    	height: 32px;
+    	margin: 0 auto;
+    	font-size: 14px;
+        font-weight: 500;
+    	line-height: 32px;
+	}
+
+	/*如何成为一名 Growth Hacker?*/
+	.next{
+		height: auto;
+	}
+	.next_introduce{
+		width: 100%;
+    	padding: 50px 0;
+    	height: auto;
+	}
+	.next_introduce h3{
+		font-size:18px;
+		font-weight: normal;
+	}
+	.next_introduce img{
+		width: 100%;
+		height: auto;
+	}
+	.next_content_container{
+		padding: 0 10px;
+	}
+	.next_content_left img{
+		width: 90px;
+		margin-bottom:0;
+	}
+	.next_content_left p{
+	    float: left;
+	    width: calc(100% - 90px);
+	    margin-top: -100px;
+    	margin-left: 85px;
+	    color: #a0a4af;
+	    font-size: 11px;
+	    font-weight: 100;
+	    line-height: 185%;
+	}
+	.next_content_left h4{
+		font-size: 13px;
+	    font-weight: 500;
+	    color: #f17b74;
+	}
+	.next_content_right_div{
+		margin-left: 0;
+	}
+
+	/*Growth Hacker 必备的8项能力*/
+	.third{
+		height: auto;
+		padding-bottom: 50px;
+	}
+	.third_container{
+		height: auto;
+	}
+	.third_container img{
+		width: 100%;
+
+	}
+	.third_container h3{
+		font-size:18px;
+		font-weight: normal;
+	}
+	.third_container h6{
+	    font-size: 15px;
+	    width: 100%;
+	    padding: 0;
+	}
+	.third_list{
+		width: 100%;
+		height: auto;
+		box-shadow: none;
+	}
+	.third_item{
+		width: 100%;
+	}
+	.third_item span{
+		top: -17px;
+	}
+	.third_item div{
+		width: auto;
+		height: auto;
+	    margin :50px 15px 0 15px;
+	    box-shadow: 0 2px 24px 0 rgba(0, 0, 0, 0.1);
+	    padding: 0;
+	}
+	.third_item p{
+		padding: 0 25px 15px;
+		margin: 0;
+		height: auto;
+	}
+
+	/*Growth Hacker ：如何用数据驱动增长？*/
+	.forth_container{
+		width: 100%;
+		height: auto;
+	}
+	.forth_container h3{
+		font-size: 14px;
+		font-weight: normal;
+		margin-bottom: 20px;
+	}
+	.forth_container img{
+		width: 100%;
+	}
+	.forth_item{
+		border: none;
+		width: 95%;
+		height: auto;
+	}
+	.forth_item h6{
+		margin: 9px auto;
+	}
+	.forth_item img{
+		width: 50px;
+		height: auto;
+	}
+
+	/*footer*/
+	.footer_img_left{
+		display: none;
+	}
+	.footer_img_right{
+		display: none;
+	}
+	.footer_container{
+		width: 100%;
+	    padding: 0;
+	    margin: 0;
+	    padding-top: 50px;
+	}
+	.footer_container_list{
+		margin: 0 17px;
+	}
+	.footer_text{
+	    display: block;
+	    width: 340px;
+	    margin: 0 auto;
+	    float: none;
+	}
+
+}
